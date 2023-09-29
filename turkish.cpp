@@ -8,9 +8,9 @@ std::string translationIntoTurkish(int n) {
             case 1: {result = "on"; break;}
             case 2: {result = "yirmi"; break;}
             case 3: {result = "otuz"; break;}
-            case 4: {result = "kırk"; break;}
+            case 4: {result = "kirk"; break;}
             case 5: {result = "elli"; break;}
-            case 6: {result = "altmış"; break;}
+            case 6: {result = "altmiş"; break;}
             case 7: {result = "yetmiş"; break;}
             case 8: {result = "seksen"; break;}
             case 9: {result = "doksan"; break;}
@@ -25,7 +25,7 @@ std::string translationIntoTurkish(int n) {
         case 3: {result += "üç"; break;}
         case 4: {result += "dört"; break;}
         case 5: {result += "beş"; break;}
-        case 6: {result += "altı"; break;}
+        case 6: {result += "alti"; break;}
         case 7: {result += "yedi"; break;}
         case 8: {result += "sekiz"; break;}
         case 9: {result += "dokuz"; break;}
