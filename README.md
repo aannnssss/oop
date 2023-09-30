@@ -19,22 +19,22 @@
 • единицы (0-9) и десятки (10, 20, 30 и т.д.) имеют свое собственное уникальное имя;  
 • все остальные числа обозначаются просто [tens] + [unit], как, например, twenty one в английском языке.  
 В турецком языке единицы и десятки называются следующим образом:
-0 = sıfır  
+0 = sifir  
 1 = bir  
 2 = iki  
 3 = üç  
 4 = dört  
 5 = beş  
-6 = altı  
+6 = alti  
 7 = yedi  
 8 = sekiz  
 9 = dokuz  
 10 = on  
 20 = yirmi  
 30 = otuz  
-40 = kırk  
+40 = kirk  
 50 = elli  
-60 = altmış  
+60 = altmiş  
 70 = yetmiş  
 80 = seksen  
 90 = doksan
@@ -70,9 +70,9 @@ std::string translationIntoTurkish(int n) {
             case 1: {result = "on"; break;}
             case 2: {result = "yirmi"; break;}
             case 3: {result = "otuz"; break;}
-            case 4: {result = "kırk"; break;}
+            case 4: {result = "kirk"; break;}
             case 5: {result = "elli"; break;}
-            case 6: {result = "altmış"; break;}
+            case 6: {result = "altmiş"; break;}
             case 7: {result = "yetmiş"; break;}
             case 8: {result = "seksen"; break;}
             case 9: {result = "doksan"; break;}
@@ -87,7 +87,7 @@ std::string translationIntoTurkish(int n) {
         case 3: {result += "üç"; break;}
         case 4: {result += "dört"; break;}
         case 5: {result += "beş"; break;}
-        case 6: {result += "altı"; break;}
+        case 6: {result += "alti"; break;}
         case 7: {result += "yedi"; break;}
         case 8: {result += "sekiz"; break;}
         case 9: {result += "dokuz"; break;}
@@ -144,9 +144,6 @@ int main(int argc, char **argv) {
 ```
 (base) annastarostina@MacBook-Pro-Anna build % cmake --build .
 [ 50%] Built target task
-[100%] Built target tests
-(base) annastarostina@MacBook-Pro-Anna build % cmake --build .
-[ 50%] Built target task
 [ 66%] Building CXX object CMakeFiles/tests.dir/tests.cpp.o
 [ 83%] Linking CXX executable tests
 [100%] Built target tests
@@ -191,6 +188,9 @@ int main(int argc, char **argv) {
 [----------] Global test environment tear-down
 [==========] 7 tests from 7 test suites ran. (0 ms total)
 [  PASSED  ] 7 tests.
+(base) annastarostina@MacBook-Pro-Anna build % ./task
+60
+altmiş
 ```
 ## 7. Выводы
 
